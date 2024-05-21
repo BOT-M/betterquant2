@@ -267,13 +267,13 @@ inline std::string GetStatusMsg(int statusCode) {
     return "Remove session failed.";
   } else if (statusCode == SCODE_WEB_SRV_INVALID_USERNAME_OR_PASSWORD) {
     return "Invalid username or password.";
-  } else if (statusCode == SCODE_START_STG_FAILED ) {
+  } else if (statusCode == SCODE_START_STG_FAILED) {
     return "Start stg failed.";
-  } else if (statusCode == SCODE_STOP_STG_FAILED ) {
+  } else if (statusCode == SCODE_STOP_STG_FAILED) {
     return "Stop stg failed.";
-  } else if (statusCode == SCODE_STG_ALREADY_STARTED ) {
+  } else if (statusCode == SCODE_STG_ALREADY_STARTED) {
     return "Stg already started.";
-  } else if (statusCode == SCODE_STG_NOT_START ) {
+  } else if (statusCode == SCODE_STG_NOT_START) {
     return "Stg not start.";
   } else if (statusCode == SCODE_TD_SRV_RISK_EXCEED_FLOW_CTRL) {
     return "Exceed flow control in risk ctrl of td srv.";
