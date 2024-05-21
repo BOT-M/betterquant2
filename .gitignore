@@ -24,3 +24,6 @@ docker/docker-compose-tdgw/docker-compose-tdgw-10004.yaml
 docker/docker-compose-tdgw/docker-compose-tdgw-10005.yaml
 
 drogon/
+
+.vscode/
+out/
