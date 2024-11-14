@@ -56,8 +56,8 @@ cp -r $ROOT_DIR_OF_SOLUTION/bin/config $ROOT_DIR_OF_INSTALLATION/betterquant/
 cp -r $ROOT_DIR_OF_SOLUTION/bin/plugin $ROOT_DIR_OF_INSTALLATION/betterquant/
 
 # Modify the configuration required by the docker environment
-sed -i 's/host=0.0.0.0/host=mysql/g' \
-  $(grep 'host=0.0.0.0' $ROOT_DIR_OF_INSTALLATION/betterquant/config -rl | grep yaml)
+sed -i 's/host=192.168.222.188/host=mysql/g' \
+  $(grep 'host=192.168.222.188' $ROOT_DIR_OF_INSTALLATION/betterquant/config -rl | grep yaml)
 sed -i "s/password=.*/password=$DB_PASSWD/g" \
   $(grep 'password=.*' $ROOT_DIR_OF_INSTALLATION/betterquant/config -rl | grep yaml)
 

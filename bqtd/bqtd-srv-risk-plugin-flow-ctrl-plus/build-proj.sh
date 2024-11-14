@@ -3,7 +3,7 @@ set -u
 set -e
 
 readonly PARALLEL_COMPILE_THREAD_NUM=6
-readonly SOLUTION_ROOT_DIR=/home/jasper/work/betterquant2
+readonly SOLUTION_ROOT_DIR=/root/betterquant2
 
 readonly PLUGIN_NO=$(cat CMakeLists.txt | grep -i 'project(' | \
   awk '{print $1}' | awk -F'-' '{print $NF}')

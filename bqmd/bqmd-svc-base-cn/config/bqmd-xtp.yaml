@@ -29,9 +29,9 @@ rawMDHandlerParam: moduleName=rawMDHandler; numOfUnprocessedTaskAlert=1000; task
 mdStorageSvcParam: moduleName=mdStorageSvc; numOfUnprocessedTaskAlert=1000; taskRandAllocThreadPoolSize=0; taskSpecificThreadPoolSize=4
 numOfMDWrittenToTDEngAtOneTime: 100
 
-tdEngParam: host=0.0.0.0; port=0; db=; username=root; password=taosdata; connPoolSize=4
+tdEngParam: host=192.168.222.188; port=0; db=; username=root; password=taosdata; connPoolSize=4
 
-dbEngParam: svcName=dbEng; dbName=BetterQuant; host=0.0.0.0; port=3306; username=root; password=showmethemoney
+dbEngParam: svcName=dbEng; dbName=BetterQuant; host=192.168.222.188; port=3306; username=root; password=Tentap123
 dbTaskDispatcherParam: moduleName=dbTaskDispatcher
 
 logger: 

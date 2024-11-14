@@ -6,7 +6,7 @@ acctId: 10011
 
 tdGWChannel: "TD@TDGWChannel@Trade"
 
-tdSrvParam: svcName=TD@BINANCE@SPOT; srvAddr=tcp://0.0.0.0:62000
+tdSrvParam: svcName=TD@BINANCE@SPOT; srvAddr=tcp://192.168.222.188:62000
 tdSrvTaskDispatcherParam: moduleName=tdSrvTaskDispatcher; taskRandAllocThreadPoolSize=0; taskSpecificThreadPoolSize=2
 
 addrOfWS: "wss://stream.binance.com:9443/ws" 
@@ -26,7 +26,7 @@ timeoutOfQueryOrderInfo: 60000
 wsParam: svcName=WSCli; intervalOfSendPingAndCheckConn=5000; sendPing=1; expireTimeOfConn=10800000
 wsTaskDispatcherParam: moduleName=wsCliTaskDispatcher; taskRandAllocThreadPoolSize=0; taskSpecificThreadPoolSize=1
 
-dbEngParam: svcName=dbEng; dbName=BetterQuant; host=0.0.0.0; port=3306; username=root; password=showmethemoney
+dbEngParam: svcName=dbEng; dbName=BetterQuant; host=192.168.222.188; port=3306; username=root; password=Tentap123
 dbTaskDispatcherParam: moduleName=dbTaskDispatcher
 
 intervalOfTBLMonitorOfSymbolInfo: 10000

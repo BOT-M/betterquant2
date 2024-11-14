@@ -2,12 +2,12 @@
 
 "listeners": [
   {
-    "address": "0.0.0.0",
+    "address": "192.168.222.188",
     "port": 80,
     "https": false
   },
   {
-    "address": "0.0.0.0",
+    "address": "192.168.222.188",
     "port": 443,
     "https": false,
     "cert": "",

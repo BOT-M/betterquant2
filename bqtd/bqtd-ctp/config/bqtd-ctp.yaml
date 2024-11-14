@@ -40,7 +40,7 @@ thresholdOfQryAllOrder: 10
 secAgoTheOrderNeedToBeSynced: 60
 secAgoTheOrderCouldBeSync: 30
 
-dbEngParam: svcName=dbEng; dbName=BetterQuant; host=0.0.0.0; port=3306; username=root; password=showmethemoney
+dbEngParam: svcName=dbEng; dbName=BetterQuant; host=192.168.222.188; port=3306; username=root; password=Tentap123
 dbTaskDispatcherParam: moduleName=dbTaskDispatcher
 
 flowCtrlRule:

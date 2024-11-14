@@ -61,11 +61,11 @@ cd bqweb-srv && bash build-proj.sh && cd -
 
 cd bqmd/bqmd-svc-base-cn && bash build-proj.sh && cd -
 cd bqmd/bqmd-xtp && bash build-proj.sh && cd -
-cd bqmd/bqmd-ctp && bash build-proj.sh && cd -
+# cd bqmd/bqmd-ctp && bash build-proj.sh && cd -
 
 cd bqtd/bqtd-svc-base-cn && bash build-proj.sh && cd -
 cd bqtd/bqtd-xtp && bash build-proj.sh && cd -
-cd bqtd/bqtd-ctp && bash build-proj.sh && cd -
+# cd bqtd/bqtd-ctp && bash build-proj.sh && cd -
 
 et=$(echo "`date +%s.%N`" | bc)
 diff=$(echo "$et-$st" | bc)

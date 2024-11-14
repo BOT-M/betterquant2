@@ -15,7 +15,7 @@
 namespace bq::tdeng {
 
 const static std::string DEFAULT_TDENG_PARAM =
-    "host=0.0.0.0; port=0; db=; username=root; password=taosdata; "
+    "host=192.168.222.188; port=0; db=; username=root; password=taosdata; "
     "connPoolSize=4";
 
 }  // namespace bq::tdeng
